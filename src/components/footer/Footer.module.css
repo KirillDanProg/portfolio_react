@@ -1,0 +1,27 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 20vh;
+    padding: 20px;
+    background-color: rgba(5,4,6,0.75);
+}
+.footerContent {
+    display: flex;
+    justify-content: center;
+}
+.footerContent span {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+}
+.footerContent span:nth-child(even) {
+    background-color: lightgray;
+}
+.footer span {
+    display: block;
+    align-self: end;
+    margin: 0 auto 20px;
+    color: whitesmoke;
+}

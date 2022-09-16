@@ -1,0 +1,20 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 90vh;
+    color: whitesmoke;
+}
+.title {
+    text-transform: uppercase;
+    color: rgba(0,0,0, 0.5)
+}
+.mainContent {
+    color: gray;
+}
+.photo {
+    width: 400px;
+    height: 600px;
+    background-color: rgba(0,0,0,0.55);
+}

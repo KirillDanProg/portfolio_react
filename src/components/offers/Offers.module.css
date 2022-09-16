@@ -1,0 +1,15 @@
+.offersBox {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    background-color: rgba(0,0,0,0.9);
+}
+
+.hireBtn {
+    text-transform: uppercase;
+    padding: 8px 16px;
+    background-color:rgba(53,54,255,0.8);
+    color: whitesmoke;
+    font-size: 30px;
+    border-radius: 25px;
+}
