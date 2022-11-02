@@ -1,10 +1,11 @@
 import React from 'react';
 import styles from "./Skills.module.css";
 
-const Skill = ({id, icon, name, desc}) => {
+const Skill = ({id, icon, name}) => {
     return (
         <div key={id} className={styles.skillBox}>
-            <span className={styles.icon}>{icon}</span>
+
+           <img alt={"technology image"} src={icon}/>
             <span className={styles.skillName}>{name}</span>
             <span className={styles.description}>
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
