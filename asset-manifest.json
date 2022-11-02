@@ -1,13 +1,21 @@
 {
   "files": {
-    "main.css": "/reactPortfolio/static/css/main.364fd437.css",
-    "main.js": "/reactPortfolio/static/js/main.837b9ff9.js",
+    "main.css": "/reactPortfolio/static/css/main.cc80668b.css",
+    "main.js": "/reactPortfolio/static/js/main.0f6e6bac.js",
+    "static/media/view.png": "/reactPortfolio/static/media/view.c19b9e3590579a3ec888.png",
+    "static/media/icons8-react.svg": "/reactPortfolio/static/media/icons8-react.e7574af26628c8d8cc52d64e015eb898.svg",
+    "static/media/icons8-github.svg": "/reactPortfolio/static/media/icons8-github.2bc9a23c34b85b66f12cfa06981022d0.svg",
+    "static/media/icons8-css3.svg": "/reactPortfolio/static/media/icons8-css3.30571251294061c291924e663bd5ebb4.svg",
+    "static/media/icons8-redux.svg": "/reactPortfolio/static/media/icons8-redux.c5ef0cbd5c88c3f96af34f240c381f5c.svg",
+    "static/media/icons8-javascript.svg": "/reactPortfolio/static/media/icons8-javascript.8e1c28f337b1c953c73378e927bd873d.svg",
     "index.html": "/reactPortfolio/index.html",
-    "main.364fd437.css.map": "/reactPortfolio/static/css/main.364fd437.css.map",
-    "main.837b9ff9.js.map": "/reactPortfolio/static/js/main.837b9ff9.js.map"
+    "static/media/icons8-typescript.svg": "/reactPortfolio/static/media/icons8-typescript.58fdeec059797b8730abc9160768b38e.svg",
+    "static/media/icons8-html-5.svg": "/reactPortfolio/static/media/icons8-html-5.b92ca3bd122ef4c64385c4f07b471066.svg",
+    "main.cc80668b.css.map": "/reactPortfolio/static/css/main.cc80668b.css.map",
+    "main.0f6e6bac.js.map": "/reactPortfolio/static/js/main.0f6e6bac.js.map"
   },
   "entrypoints": [
-    "static/css/main.364fd437.css",
-    "static/js/main.837b9ff9.js"
+    "static/css/main.cc80668b.css",
+    "static/js/main.0f6e6bac.js"
   ]
 }
