@@ -3,6 +3,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     height: 90vh;
     color: whitesmoke;
 }
@@ -15,6 +16,6 @@
 }
 .photo {
     width: 400px;
-    height: 600px;
+    height: 400px;
     background-color: rgba(0,0,0,0.55);
 }

@@ -6,7 +6,8 @@
 }
 
 .form {
-    width: 30%;
+    width: 80%;
+    max-width: 400px;
     margin: 0 auto;
     text-align: center;
     display: flex;
@@ -25,6 +26,7 @@
 .form textarea {
     width: 100%;
     min-height: 200px;
+    padding: 10px;
     border: 2px solid rgba(99,56,255,0.8);
     border-radius: 20px;
 }

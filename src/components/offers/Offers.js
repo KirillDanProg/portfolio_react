@@ -8,7 +8,7 @@ const Offers = () => {
             <div className={styles.offersBox}>
 
                 <h2 style={{color: "whitesmoke", marginBottom: "50px"}} className={commonStyles.title}>
-                   accept remote job offers</h2>
+                   considering remote job offers</h2>
 
                 <a className={styles.hireBtn}>Hire me</a>
 

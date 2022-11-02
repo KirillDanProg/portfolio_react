@@ -1,0 +1,9 @@
+.sidebar {
+    position: fixed;
+    top: 50%;
+    left: 4%;
+    transform: translate(-50%)  rotate(90deg);
+    background-color: forestgreen;
+    /*background-color: blue;*/
+    /*width: 500px;*/
+}

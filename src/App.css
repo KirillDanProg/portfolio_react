@@ -3,7 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  box-sizing: border-box;
+  --bgColorMenu : #1d1d27;
+  --duration: .7s;
+
+}
 .App {
+  position: relative;
   margin: 0;
   padding: 0;
 }
