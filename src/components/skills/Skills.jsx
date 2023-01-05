@@ -1,13 +1,15 @@
 import React from 'react';
 import Skill from "./Skill";
-import styles from "./Skills.module.css"
-import commonStyles from "../../common/commonStyles.module.css"
+import styles from "./Skills.module.scss"
+import commonStyles from "../../common/commonStyles.module.scss"
 import js from "../../assets/img/skillsImg/icons8-javascript.svg"
 import css from "../../assets/img/skillsImg/icons8-css3.svg"
 import redux from "../../assets/img/skillsImg/icons8-redux.svg"
 import react from "../../assets/img/skillsImg/icons8-react.svg"
 import html from "../../assets/img/skillsImg/icons8-html-5.svg"
 import typescript from "../../assets/img/skillsImg/icons8-typescript.svg"
+import {SubTitle} from "../../common/components/SubTitle";
+import {Container} from "../../common/components/Container";
 
 const skills = [
     {id: 0, name: "HTML", icon: html},
@@ -26,15 +28,13 @@ const mappedSkills = skills.map(skill => {
 
 const Skills = () => {
     return (
-        <div className={commonStyles.container}>
-
-            <h2 className={commonStyles.title}>my top skills</h2>
+        <Container>
+            <SubTitle>my top skills</SubTitle>
 
             <div className={styles.skillsBox}>
                 {mappedSkills}
             </div>
-
-        </div>
+        </Container>
     );
 };
 
