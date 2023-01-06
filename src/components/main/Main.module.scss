@@ -7,12 +7,55 @@
     align-items: center;
     height: 100vh;
     gap: 30px;
-}
 
-.photo {
-    width: 400px;
-    height: 400px;
-    background-color: rgba(0,0,0,0.55);
+    .subTitle {
+        font-size: 1.5rem;
+        color: $main;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+
+    .links {
+        display: flex;
+        gap: 15px;
+        .link {
+            display: inline-block;
+            color: white;
+            &:hover {
+                transform: scale(1.3);
+                transition: 0.5s;
+            }
+            &:active {
+                transform: scale(0.9);
+                transition: 0.5s;
+            }
+        }
+    }
+
+    .downloadBtn {
+        background-color: transparent;
+        border: 2px solid #fff;
+        color: #fff;
+        letter-spacing: 1px;
+        transition: all 0.2s;
+        font-size: 18px;
+        padding: 14px 32px;
+        border-radius: 30px;
+        cursor: pointer;
+        text-transform: capitalize;
+        &:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+        &:active {
+            transform: scale(0.9);
+            transition: 0.2s;
+            background-color: rgba(255, 255, 255, 0.6);
+        }
+        .spanCv {
+            text-transform: uppercase;
+        }
+    }
+
 }
 
 .particles {
@@ -23,53 +66,5 @@
     right: 0;
     z-index: 0;
 }
-.subTitle {
-    font-size: 28px;
-    color: $main;
-    font-weight: bold;
-    text-transform: capitalize;
-}
-.links {
-    display: flex;
-    gap: 15px;
-}
 
-.link {
-    display: inline-block;
-    color: white;
-}
 
-.link:hover {
-    transform: scale(1.3);
-    transition: 0.5s;
-}
-.link:active {
-    transform: scale(0.9);
-    transition: 0.5s;
-}
-
-.downloadBtn {
-    background-color: transparent;
-    border: 2px solid #fff;
-    color: #fff;
-    letter-spacing: 1px;
-    transition: all 0.2s;
-    font-size: 18px;
-    padding: 14px 32px;
-    border-radius: 30px;
-    cursor: pointer;
-    text-transform: capitalize;
-}
-
-.downloadBtn:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-}
-.downloadBtn:active {
-    transform: scale(0.9);
-    transition: 0.2s;
-    background-color: rgba(255, 255, 255, 0.6);
-}
-
-.spanCv {
-    text-transform: uppercase;
-}
