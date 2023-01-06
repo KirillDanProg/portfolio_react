@@ -1,6 +1,5 @@
 import React from 'react';
-import commonStyles from "../../common/commonStyles.module.scss"
-import styles from "./Projects.module.css"
+import styles from "./Projects.module.scss"
 import Project from "./Project";
 import social from "../../assets/img/projectsImg/social.png"
 import todo from "../../assets/img/projectsImg/pwa-todo.png"

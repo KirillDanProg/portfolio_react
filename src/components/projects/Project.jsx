@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from "./Projects.module.css"
+import styles from "./Projects.module.scss"
 import github from "../../assets/img/icons/icons8-github.svg"
 import view from "../../assets/img/icons/view.png"
 
