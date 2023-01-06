@@ -8,7 +8,7 @@ import {loadFull} from "tsparticles";
 import particlesConfig from "../../assets/particlesjs-config.json"
 import {Container} from "../../common/components/Container";
 import ReactTypingEffect from 'react-typing-effect';
-import CV from "../../assets/сv/CV.pdf"
+import CV from "../../assets/сv/kirill-front-end-CV.pdf"
 
 import InstagramIcon from '@mui/icons-material/Instagram';
 import GitHubIcon from '@mui/icons-material/GitHub';
