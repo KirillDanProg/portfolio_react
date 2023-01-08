@@ -14,7 +14,7 @@
     text-align: center;
     display: flex;
     flex-direction: column;
-    color: $textColor
+    color: $textColor;
 }
 
 .form .email, .name {
@@ -23,7 +23,7 @@
     padding: 15px;
     height: 50px;
     font-size: 18px;
-    border: 2px solid rgba(99,56,255,0.8);
+    border: 2px solid $main;
     border-radius: 20px;
 }
 .form .subject {
@@ -35,15 +35,15 @@
     width: 100%;
     min-height: 200px;
     padding: 10px;
-    border: 2px solid rgba(99,56,255,0.8);
+    border: 2px solid $main;
     border-radius: 20px;
 }
 
 .form button {
     margin-top: 20px;
     padding: 15px 30px;
-    border: 2px solid rgba(195,149,255,0.8) ;
-    background-color: rgba(99,56,255,0.8);
+    border: 2px solid $main ;
+    background-color: $main;
     border-radius: 20px;
     color: inherit;
     font-size: 20px;
