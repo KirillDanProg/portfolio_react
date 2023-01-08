@@ -9,25 +9,28 @@ import {Container} from "../../common/components/Container";
 
 const projects = [
     {
-        id: 0,
-        projectName: "Social-network",
-        img: social,
-        repo: "https://github.com/KirillDanProg/social-network.git",
-        link: "https://samuray-way.vercel.app/"
+        id: 2,
+        projectName: "Cards-learning",
+        img: cards,
+        repo: "https://github.com/KirillDanProg/cards-friday-project",
+        link: "https://cards-friday-project.vercel.app",
+        description: "Educational app made with React / RTK Query / MUI"
     },
     {
         id: 1,
         projectName: "PWA-Todolist",
         img: todo,
         repo: "https://github.com/KirillDanProg/pwa-todolist.git",
-        link: "https://pwa-todolist.vercel.app/"
+        link: "https://kirilldanprog.github.io/pwa-todolist/",
+        description: "Todo list app made with React/Redux toolkit"
     },
     {
-        id: 2,
-        projectName: "Cards-learning",
-        img: cards,
-        repo: "https://github.com/KirillDanProg/cards-friday-project",
-        link: "https://cards-friday-project.vercel.app"
+        id: 0,
+        projectName: "Social-network",
+        img: social,
+        repo: "https://github.com/KirillDanProg/social-network.git",
+        // link: "https://kirilldanprog.github.io/social-network/",
+        description: "App made with React with use of Rest API"
     },
 ]
 

@@ -32,30 +32,6 @@
         }
     }
 
-    .downloadBtn {
-        background-color: transparent;
-        border: 2px solid #fff;
-        color: #fff;
-        letter-spacing: 1px;
-        transition: all 0.2s;
-        font-size: 18px;
-        padding: 14px 32px;
-        border-radius: 30px;
-        cursor: pointer;
-        text-transform: capitalize;
-        &:hover {
-            background-color: rgba(255, 255, 255, 0.2);
-        }
-        &:active {
-            transform: scale(0.9);
-            transition: 0.2s;
-            background-color: rgba(255, 255, 255, 0.6);
-        }
-        .spanCv {
-            text-transform: uppercase;
-        }
-    }
-
 }
 
 .particles {

@@ -1,16 +1,17 @@
 import React from 'react';
 import styles from "./Skills.module.scss";
 
-const Skill = ({id, icon, name}) => {
+const Skill = (props) => {
     return (
-        <div key={id} className={styles.skillBox}>
+        <div key={props.id} className={styles.skillBox}>
 
-           <img alt={"technology image"} src={icon}/>
-            <span className={styles.skillName}>{name}</span>
-            <span className={styles.description}>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy
-            </span>
+           <img alt={"technology image"} src={props.icon}/>
+            <span className={styles.skillName}>{props.name}</span>
+            <ul className={styles.list}>
+                {
+                    props.description?.map(el => <li key={props.id}>{el}</li>)
+                }
+            </ul>
         </div>
     );
 };

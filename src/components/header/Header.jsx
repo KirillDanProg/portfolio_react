@@ -1,17 +1,13 @@
 import React from 'react';
 import styles from "./Header.module.css"
-import Sidebar from "../nav/Sidebar"
+import logo from "../../assets/img/logo/logo-no-background.png"
 
-const Header = () => {
+export const Footer = () => {
     return (
         <div className={styles.header}>
-
-
-
-
+            <img src={logo}/>
         </div>
     );
 };
 
 
-export default Header;

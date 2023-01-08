@@ -37,7 +37,7 @@ export const Main = () => {
                     className={commonStyle.title}
                 />
                 <MediaLinks/>
-                <a href={CV} download="Kirill Front-end CV" className={styles.downloadBtn}>
+                <a href={CV} download="Kirill Front-end CV" className={commonStyle.button}>
                     download <span className={styles.spanCv}>cv</span>
                 </a>
             </div>

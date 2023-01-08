@@ -1,20 +1,24 @@
+@import "../../common/style/vars.scss";
+
 .contacts {
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     background-color: rgba(0,0,0,0.4);
 }
 
 .form {
-    width: 80%;
-    max-width: 400px;
     margin: 0 auto;
     text-align: center;
     display: flex;
     flex-direction: column;
+    color: $textColor
 }
 
-.form input {
+.form .email, .name {
+    width: 48%;
     margin-bottom: 10px;
     padding: 15px;
     height: 50px;
@@ -22,8 +26,12 @@
     border: 2px solid rgba(99,56,255,0.8);
     border-radius: 20px;
 }
+.form .subject {
+    @extend .email;
+    width: 100%;
+}
 
-.form textarea {
+.form  textarea{
     width: 100%;
     min-height: 200px;
     padding: 10px;
@@ -37,4 +45,12 @@
     border: 2px solid rgba(195,149,255,0.8) ;
     background-color: rgba(99,56,255,0.8);
     border-radius: 20px;
+    color: inherit;
+    font-size: 20px;
+    cursor: pointer;
+}
+.form div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
