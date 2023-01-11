@@ -1,9 +1,13 @@
 {
   "files": {
-    "main.css": "/reactPortfolio/static/css/main.cc80668b.css",
-    "main.js": "/reactPortfolio/static/js/main.0f6e6bac.js",
-    "static/media/view.png": "/reactPortfolio/static/media/view.c19b9e3590579a3ec888.png",
+    "main.css": "/reactPortfolio/static/css/main.7c476c6a.css",
+    "main.js": "/reactPortfolio/static/js/main.8694bd72.js",
+    "static/media/social.png": "/reactPortfolio/static/media/social.8dd81733d1ab7a09e5ca.png",
+    "static/media/kirill-front-end-CV.pdf": "/reactPortfolio/static/media/kirill-front-end-CV.9fd4fae1a54f3a33fdbd.pdf",
+    "static/media/pwa-todo.png": "/reactPortfolio/static/media/pwa-todo.e7b9aea5ddc9d5d87b80.png",
+    "static/media/learning-cards.png": "/reactPortfolio/static/media/learning-cards.166cd33d080c513820b6.png",
     "static/media/icons8-react.svg": "/reactPortfolio/static/media/icons8-react.e7574af26628c8d8cc52d64e015eb898.svg",
+    "static/media/logo-no-background.png": "/reactPortfolio/static/media/logo-no-background.07a9af76f83f726f35f0.png",
     "static/media/icons8-github.svg": "/reactPortfolio/static/media/icons8-github.2bc9a23c34b85b66f12cfa06981022d0.svg",
     "static/media/icons8-css3.svg": "/reactPortfolio/static/media/icons8-css3.30571251294061c291924e663bd5ebb4.svg",
     "static/media/icons8-redux.svg": "/reactPortfolio/static/media/icons8-redux.c5ef0cbd5c88c3f96af34f240c381f5c.svg",
@@ -11,11 +15,11 @@
     "index.html": "/reactPortfolio/index.html",
     "static/media/icons8-typescript.svg": "/reactPortfolio/static/media/icons8-typescript.58fdeec059797b8730abc9160768b38e.svg",
     "static/media/icons8-html-5.svg": "/reactPortfolio/static/media/icons8-html-5.b92ca3bd122ef4c64385c4f07b471066.svg",
-    "main.cc80668b.css.map": "/reactPortfolio/static/css/main.cc80668b.css.map",
-    "main.0f6e6bac.js.map": "/reactPortfolio/static/js/main.0f6e6bac.js.map"
+    "main.7c476c6a.css.map": "/reactPortfolio/static/css/main.7c476c6a.css.map",
+    "main.8694bd72.js.map": "/reactPortfolio/static/js/main.8694bd72.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc80668b.css",
-    "static/js/main.0f6e6bac.js"
+    "static/css/main.7c476c6a.css",
+    "static/js/main.8694bd72.js"
   ]
 }
