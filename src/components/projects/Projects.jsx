@@ -4,6 +4,7 @@ import Project from "./Project";
 import social from "../../assets/img/projectsImg/social.png"
 import todo from "../../assets/img/projectsImg/pwa-todo.png"
 import cards from "../../assets/img/projectsImg/learning-cards.png"
+import hotels from "../../assets/img/projectsImg/hotels.png"
 import {SubTitle} from "../../common/components/SubTitle";
 import {Container} from "../../common/components/Container";
 
@@ -31,6 +32,13 @@ const projects = [
         repo: "https://github.com/KirillDanProg/social-network.git",
         // link: "https://kirilldanprog.github.io/social-network/",
         description: "App made with React with use of Rest API"
+    },
+    {
+        id: 3,
+        projectName: "Interview test app",
+        img: hotels,
+        repo: "https://github.com/KirillDanProg/hotel-search-app",
+        description: "App for hotel searching"
     },
 ]
 

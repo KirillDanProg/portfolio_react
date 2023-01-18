@@ -7,7 +7,7 @@ import {loadFull} from "tsparticles";
 import particlesConfig from "../../assets/particlesjs-config.json"
 import {Container} from "../../common/components/Container";
 import ReactTypingEffect from 'react-typing-effect';
-import CV from "../../assets/сv/kirill-front-end-CV.pdf"
+import CV from "../../assets/сv/Kirill-CV-front-end.pdf"
 import {MediaLinks} from "./media-links/MediaLinks";
 
 export const Main = () => {
@@ -27,7 +27,7 @@ export const Main = () => {
                 <h4 className={styles.subTitle}>hello & welcome</h4>
                 <ReactTypingEffect
                     text={[
-                        "i'm kirill vychuzhanin",
+                        "i'm Kirill Vychuzhanin",
                         "i'm a front-end developer",
                     ]}
                     speed={50}
