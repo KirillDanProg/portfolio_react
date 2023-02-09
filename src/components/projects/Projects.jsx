@@ -35,9 +35,10 @@ const projects = [
     },
     {
         id: 3,
-        projectName: "Interview test app",
+        projectName: "Hotel search app",
         img: hotels,
         repo: "https://github.com/KirillDanProg/hotel-search-app",
+        link: "https://hotel-search-app.vercel.app",
         description: "App for hotel searching"
     },
 ]
