@@ -79,7 +79,6 @@ const Skills = () => {
   return (
     <Container>
       <SubTitle>my top skills</SubTitle>
-
       <div className={styles.skillsBox}>{mappedSkills}</div>
     </Container>
   );

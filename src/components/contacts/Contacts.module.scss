@@ -18,7 +18,6 @@
 }
 
 .form .email, .name {
-    width: 48%;
     margin-bottom: 10px;
     padding: 15px;
     height: 50px;
@@ -28,11 +27,9 @@
 }
 .form .subject {
     @extend .email;
-    width: 100%;
 }
 
 .form  textarea{
-    width: 100%;
     min-height: 200px;
     padding: 10px;
     border: 2px solid $main;
@@ -53,4 +50,31 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+.formField {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.done {
+    position: relative;
+    display: block;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    background-color: rgba(0, 238, 107, 0.93);
+   
+}
+.done::before {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: 50%;
+    width: 30px;
+    height: 15px;
+    border-style: solid ;
+    border-color: rgb(19, 29, 66);
+    border-width: 0 0 4px 4px;
+    transform: rotate(-45deg) translate(-50%, -50%);
 }
