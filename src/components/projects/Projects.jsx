@@ -5,10 +5,28 @@ import social from "../../assets/img/projectsImg/social.png"
 import todo from "../../assets/img/projectsImg/pwa-todo.png"
 import cards from "../../assets/img/projectsImg/learning-cards.png"
 import hotels from "../../assets/img/projectsImg/hotels.png"
+import telegramBot from "../../assets/img/projectsImg/telegramBot.png"
 import {SubTitle} from "../../common/components/SubTitle";
 import {Container} from "../../common/components/Container";
 
 const projects = [
+    {
+        id: 4,
+        projectName: "ChatGPT telegram bot",
+        img: telegramBot,
+        repo: "https://github.com/KirillDanProg/gpt-telegram-bot",
+        link: "https://t.me/ChatGPTKiraBot",
+        description:
+            <div>
+                This advanced bot integrates with the OpenAI API to offer:
+                <ul>
+                <li>1) Russian-to-English translation</li>
+                <li>2) Image generation</li>
+                <li>3) Dynamic conversational abilities powered by ChatGPT</li>
+                </ul>
+            </div>,
+        mobile: true
+    },
     {
         id: 2,
         projectName: "Cards-learning",
@@ -41,6 +59,7 @@ const projects = [
         link: "https://hotel-search-app.vercel.app",
         description: "App for hotel searching"
     },
+
 ]
 
 const mappedProjects = projects.map(pr => {
