@@ -15,7 +15,7 @@ const Project = (props) => {
     return (
         <div className={styles.projectBox}>
 
-            <img className={mobile ? styles.mobileProjectImage : styles.projectImg} src={img}/>
+            <img className={mobile ? styles.mobileProjectImage : styles.projectImg} src={img} alt="project"/>
 
             <div className={styles.projectInfo}>
 
@@ -27,12 +27,12 @@ const Project = (props) => {
                 </div>
 
                 <div className={styles.btns}>
-                    <a className={`${styles.code} ${styles.btn}`} href={repo} target="_blank">
+                    <a className={`${styles.code} ${styles.btn}`} href={repo} target="_blank" rel="noreferrer">
                         <span>code</span> <img alt={"github"} className={styles.icon} src={github}/>
                     </a>
                     {
                         props.projectName !== "Social-network" &&
-                        <a className={`${styles.demo} ${styles.btn}`} href={link} target="_blank">
+                        <a className={`${styles.demo} ${styles.btn}`} href={link} target="_blank" rel="noreferrer">
                             <span>demo</span>
                         </a>
                     }
