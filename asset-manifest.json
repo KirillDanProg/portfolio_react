@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/reactPortfolio/static/css/main.b00af130.css",
-    "main.js": "/reactPortfolio/static/js/main.58baa5d8.js",
-    "static/media/Kirill-CV-front-end.pdf": "/reactPortfolio/static/media/Kirill-CV-front-end.3a93ef518cfceff9a49e.pdf",
+    "main.js": "/reactPortfolio/static/js/main.fd4e8387.js",
     "static/media/telegramBot.png": "/reactPortfolio/static/media/telegramBot.97f2074fa0ac05b43c1a.png",
     "static/media/money-tracker.png": "/reactPortfolio/static/media/money-tracker.2e84b5fae9075a741fd4.png",
     "static/media/social.png": "/reactPortfolio/static/media/social.4ef10c49b94d06797e55.png",
+    "static/media/Kirill-CV-front-end.pdf": "/reactPortfolio/static/media/Kirill-CV-front-end.8d4f824c561462eb5c77.pdf",
     "static/media/book-app.png": "/reactPortfolio/static/media/book-app.19d89cc4ccd6edc7b17a.png",
     "static/media/hotels.png": "/reactPortfolio/static/media/hotels.edb7040c0500d08c3e48.png",
     "static/media/learning-cards.png": "/reactPortfolio/static/media/learning-cards.6b8ce1e4889b19952231.png",
@@ -19,10 +19,10 @@
     "static/media/icons8-typescript.svg": "/reactPortfolio/static/media/icons8-typescript.58fdeec059797b8730abc9160768b38e.svg",
     "static/media/icons8-html-5.svg": "/reactPortfolio/static/media/icons8-html-5.b92ca3bd122ef4c64385c4f07b471066.svg",
     "main.b00af130.css.map": "/reactPortfolio/static/css/main.b00af130.css.map",
-    "main.58baa5d8.js.map": "/reactPortfolio/static/js/main.58baa5d8.js.map"
+    "main.fd4e8387.js.map": "/reactPortfolio/static/js/main.fd4e8387.js.map"
   },
   "entrypoints": [
     "static/css/main.b00af130.css",
-    "static/js/main.58baa5d8.js"
+    "static/js/main.fd4e8387.js"
   ]
 }
