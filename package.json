@@ -17,7 +17,6 @@
     "react-hook-form": "^7.41.5",
     "react-scripts": "5.0.1",
     "react-tsparticles": "^2.7.1",
-    "react-typing-effect": "^2.0.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
