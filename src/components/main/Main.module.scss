@@ -6,13 +6,35 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    gap: 30px;
+    gap: 18px;
+
+
+    .title {
+        margin-bottom: 50px;
+        span {
+            display: block;
+        }
+        .title_down {
+            opacity: 0;
+            transform: translateX(200%);
+            animation: rightFadeIn 1s ease-out forwards;
+            animation-delay: 0.4s;
+          }
+          
+          .title_up {
+              opacity: 0;
+              transform: translateX(-400px);
+              animation: leftFadeIn 1s ease-out forwards;
+              animation-delay: 0.4s;
+          }
+    } 
 
     .subTitle {
         font-size: 1.5rem;
         color: $main;
         font-weight: bold;
         text-transform: capitalize;
+        animation: fadeIn 1.3s ease-out;
     }
 
     .spanCv {
@@ -30,4 +52,32 @@
     z-index: 0;
 }
 
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-100px);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes leftFadeIn {
+    0% {
+        transform: translateX(-500px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
 
+@keyframes rightFadeIn {
+    0% {
+        transform: translateX(500px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

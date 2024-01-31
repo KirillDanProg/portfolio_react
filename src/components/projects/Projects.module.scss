@@ -42,10 +42,8 @@
 
 .projectImg,
 .mobileProjectImage {
-  position: relative;
-  width: 65%;
-  border-radius: 20px;
-  transition: 1s;
+  width: 60%;
+  transition: 0.7s;
   &:hover {
     transform: scale(1.2);
   }
