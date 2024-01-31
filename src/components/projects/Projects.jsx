@@ -4,7 +4,7 @@ import Project from "./Project";
 
 import {SubTitle} from "../../common/components/SubTitle";
 import {Container} from "../../common/components/Container";
-import {projects} from "../../data/projects-data"
+import  {projects} from "../../data/projects-data"
 
 
 const mappedProjects = projects.map(pr => {
