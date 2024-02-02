@@ -27,7 +27,7 @@ const Project = (props) => {
             <span>code</span>{" "}
             <img alt={"github"} className={styles.icon} src={github} />
           </a>
-          {props.projectName !== "Social-network" && (
+          {link && (
             <a
               className={`${styles.demo} ${styles.btn}`}
               href={link}
