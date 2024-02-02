@@ -11,7 +11,6 @@ export const projects = [
     projectName: "ChatGPT telegram bot",
     img: telegramBot,
     repo: "https://github.com/KirillDanProg/gpt-telegram-bot",
-    link: "https://t.me/ChatGPTKiraBot",
     description: (
       <div>
         This advanced bot integrates with the OpenAI API to offer:
