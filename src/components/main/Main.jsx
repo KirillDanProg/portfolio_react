@@ -6,7 +6,7 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import particlesConfig from "../../assets/particlesjs-config.json";
 import { Container } from "../../common/components/Container";
-import CV from "../../assets/сv/Kirill-CV-front-end.pdf";
+import CV from "../../assets/cv/Kirill-frontend-CV.pdf";
 import { MediaLinks } from "./media-links/MediaLinks";
 
 export const Main = () => {
