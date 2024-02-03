@@ -8,7 +8,9 @@ const Project = (props) => {
   return (
     <div className={styles.projectBox}>
       <img
-        className={mobile ? styles.mobileProjectImage : styles.projectImg}
+        className={`${styles.img} ${
+          mobile ? styles.mobileProjectImage : styles.projectImg
+        }`}
         src={img}
         alt='project'
       />

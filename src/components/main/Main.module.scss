@@ -1,40 +1,43 @@
 @import "../../common/style/vars";
 
 .main {
+    height: 100vh;
+
     display: flex;
+    gap: 18px;
+    align-items: center;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
-    gap: 18px;
 
 
     .title {
         margin-bottom: 50px;
+
         span {
             display: block;
         }
+
         .title_down {
-            opacity: 0;
-            transform: translateX(200%);
             animation: rightFadeIn 1s ease-out forwards;
             animation-delay: 0.4s;
+            opacity: 0;
+            transform: translateX(200%);
           }
           
           .title_up {
-              opacity: 0;
-              transform: translateX(-400px);
               animation: leftFadeIn 1s ease-out forwards;
               animation-delay: 0.4s;
+              opacity: 0;
+              transform: translateX(-400px);
           }
     } 
 
     .subTitle {
         font-size: 1.5rem;
-        color: $main;
         font-weight: bold;
-        text-transform: capitalize;
+        color: $main;
         animation: fadeIn 1.3s ease-out;
+        text-transform: capitalize;
     }
 
     .spanCv {
@@ -44,11 +47,8 @@
 }
 
 .particles {
+    inset: 0;
     position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
     z-index: 0;
 }
 
@@ -57,15 +57,18 @@
         opacity: 0;
         transform: translateY(-100px);
     } 
+
     100% {
         opacity: 1;
         transform: translateY(0);
     }
 }
+
 @keyframes leftFadeIn {
     0% {
         transform: translateX(-500px);
     }
+
     100% {
         opacity: 1;
         transform: translateX(0);
@@ -76,6 +79,7 @@
     0% {
         transform: translateX(500px);
     }
+
     100% {
         opacity: 1;
         transform: translateX(0);
