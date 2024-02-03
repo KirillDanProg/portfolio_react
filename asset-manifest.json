@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio_react/static/css/main.b00af130.css",
-    "main.js": "/portfolio_react/static/js/main.c6887f70.js",
+    "main.css": "/portfolio_react/static/css/main.f24fb1b0.css",
+    "main.js": "/portfolio_react/static/js/main.ae3dd850.js",
     "static/media/telegramBot.png": "/portfolio_react/static/media/telegramBot.97f2074fa0ac05b43c1a.png",
     "static/media/money-tracker.png": "/portfolio_react/static/media/money-tracker.2e84b5fae9075a741fd4.png",
     "static/media/social.png": "/portfolio_react/static/media/social.4ef10c49b94d06797e55.png",
@@ -18,11 +18,11 @@
     "index.html": "/portfolio_react/index.html",
     "static/media/icons8-typescript.svg": "/portfolio_react/static/media/icons8-typescript.58fdeec059797b8730abc9160768b38e.svg",
     "static/media/icons8-html-5.svg": "/portfolio_react/static/media/icons8-html-5.b92ca3bd122ef4c64385c4f07b471066.svg",
-    "main.b00af130.css.map": "/portfolio_react/static/css/main.b00af130.css.map",
-    "main.c6887f70.js.map": "/portfolio_react/static/js/main.c6887f70.js.map"
+    "main.f24fb1b0.css.map": "/portfolio_react/static/css/main.f24fb1b0.css.map",
+    "main.ae3dd850.js.map": "/portfolio_react/static/js/main.ae3dd850.js.map"
   },
   "entrypoints": [
-    "static/css/main.b00af130.css",
-    "static/js/main.c6887f70.js"
+    "static/css/main.f24fb1b0.css",
+    "static/js/main.ae3dd850.js"
   ]
 }
