@@ -4,6 +4,7 @@ import { useForm } from "react-hook-form";
 import axios from "axios";
 import { SubTitle } from "../../common/components/SubTitle";
 import commonStyles from "../../common/commonStyles.module.scss";
+import React from "react";
 
 const Contacts = () => {
   const [isSent, setIsSent] = useState(false);
@@ -61,13 +62,13 @@ const Contacts = () => {
               {...register("subject", { required: true })}
               placeholder={"subject"}
             />
-             {errors.subject && touchedFields.subject && (
+            {errors.subject && touchedFields.subject && (
               <span>This field is required</span>
             )}
           </div>
         </div>
         <textarea {...register("message")} placeholder={"MESSAGE"} />
-        <button className={commonStyles.button} type="submit">
+        <button className={commonStyles.button} type='submit'>
           {isSent ? <span className={styles.done}></span> : "Send message"}
         </button>
       </form>
