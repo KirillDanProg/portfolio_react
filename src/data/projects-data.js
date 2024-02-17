@@ -1,4 +1,4 @@
-import social from "../assets/img/projectsImg/social.png";
+import taskify from "../assets/img/projectsImg/pwa-todo.png";
 import book from "../assets/img/projectsImg/book-app.png";
 import cards from "../assets/img/projectsImg/learning-cards.png";
 import hotels from "../assets/img/projectsImg/hotels.png";
@@ -73,18 +73,28 @@ export const projects = [
   },
   {
     id: 2,
-    projectName: "Cards-learning",
+    projectName: "SmartDeck",
     img: cards,
-    repo: "https://github.com/KirillDanProg/cards-friday-project",
-    link: "https://cards-friday-project.vercel.app",
+    repo: "https://github.com/KirillDanProg/SmartDeck",
+    // link: "https://cards-friday-project.vercel.app",
     description: "Educational app made with React / RTK Query / MUI",
   },
   {
     id: 0,
-    projectName: "Social-network",
-    img: social,
-    repo: "https://github.com/KirillDanProg/social-network.git",
-    // link: "https://kirilldanprog.github.io/social-network/",
-    description: "App made with React with use of Rest API",
+    projectName: "Taskify",
+    img: taskify,
+    repo: "https://github.com/KirillDanProg/Taskify",
+    link: "https://kirilldanprog.github.io/Taskify",
+    description: (
+      <div>
+        <p style={{ marginBottom: "16px" }}>App to track and manage tasks</p>
+        <strong>Stack:</strong>
+        <ul>
+          <li>1. React</li>
+          <li>2. TypeScript</li>
+          <li>3. RTK Query</li>
+        </ul>
+      </div>
+    ),
   },
 ];
