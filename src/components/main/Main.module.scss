@@ -2,86 +2,63 @@
 
 .main {
     height: 100vh;
+    position: relative;
 
     display: flex;
-    gap: 18px;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row-reverse;
 
 
-    .title {
-        margin-bottom: 50px;
+    .img {
+        position: absolute;
 
-        span {
-            display: block;
+        height: 800px;
+        width: 500px;
+        filter: opacity(0.6);
+        background: right / contain no-repeat url("../../assets/img/me-photo.png");
+        mask-image: linear-gradient(to top, transparent 12%, rgb(0 0 0 / 100%) 50%);
+    }
+
+    .content {
+        display: flex;
+
+        gap: 20px;
+        color: $main;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        margin-right: 200px;
+        flex: 1;
+
+        .title {
+            font-size: 3.4rem;
+            font-weight: 600;
+            text-align: center;
+            text-transform: uppercase;
+        } 
+         
+        .subTitle {
+            font-size: 1.5rem;
+            font-weight: lighter;
+            text-transform: capitalize;
+            text-align: center;
         }
 
-        .title_down {
-            animation: rightFadeIn 1s ease-out forwards;
-            animation-delay: 0.4s;
-            opacity: 0;
-            transform: translateX(200%);
-          }
-          
-          .title_up {
-              animation: leftFadeIn 1s ease-out forwards;
-              animation-delay: 0.4s;
-              opacity: 0;
-              transform: translateX(-400px);
-          }
-    } 
-
-    .subTitle {
-        font-size: 1.5rem;
-        font-weight: bold;
-        color: $main;
-        animation: fadeIn 1.3s ease-out;
-        text-transform: capitalize;
+        .footer {
+            display: flex;
+    
+            gap: 20px;
+            position: relative;
+            top: 50px;
+            flex-direction: column;
+            align-items: center;
+        }
     }
+   
+    
 
     .spanCv {
         text-transform: uppercase;
     }
 
-}
-
-.particles {
-    inset: 0;
-    position: absolute;
-    z-index: 0;
-}
-
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-        transform: translateY(-100px);
-    } 
-
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-@keyframes leftFadeIn {
-    0% {
-        transform: translateX(-500px);
-    }
-
-    100% {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
-@keyframes rightFadeIn {
-    0% {
-        transform: translateX(500px);
-    }
-
-    100% {
-        opacity: 1;
-        transform: translateX(0);
-    }
 }

@@ -1,0 +1,12 @@
+@import "../../common/style/vars";
+
+.header {
+  height: 60px;
+  width: 100%;
+
+  display: flex;
+
+  gap: 60px;
+  align-items: center;
+  justify-content: center;
+}
