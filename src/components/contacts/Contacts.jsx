@@ -18,12 +18,11 @@ const Contacts = () => {
     reset,
     register,
     handleSubmit,
-    watch,
     formState: { errors, touchedFields },
   } = useForm();
   const onSubmit = async (data) => {
     messageSentToggle();
-    const res = await axios.post(
+    await axios.post(
       "https://portfolio-mailer-dt9i.vercel.app/send-email",
       data
     );
@@ -31,7 +30,7 @@ const Contacts = () => {
     messageSentToggle();
   };
   return (
-    <div className={styles.contacts}>
+    <div id="#contact" className={styles.contacts}>
       <SubTitle>Get in touch</SubTitle>
       <form onSubmit={handleSubmit(onSubmit)} className={styles.form}>
         <div>
@@ -68,7 +67,7 @@ const Contacts = () => {
           </div>
         </div>
         <textarea {...register("message")} placeholder={"MESSAGE"} />
-        <button className={commonStyles.button} type='submit'>
+        <button className={commonStyles.button} type="submit">
           {isSent ? <span className={styles.done}></span> : "Send message"}
         </button>
       </form>
