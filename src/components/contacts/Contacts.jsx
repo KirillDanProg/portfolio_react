@@ -1,7 +1,6 @@
 import { useState } from "react";
 import styles from "./Contacts.module.scss";
 import { useForm } from "react-hook-form";
-import axios from "axios";
 import { SubTitle } from "../../common/components/SubTitle";
 import commonStyles from "../../common/commonStyles.module.scss";
 import React from "react";
@@ -22,10 +21,10 @@ const Contacts = () => {
   } = useForm();
   const onSubmit = async (data) => {
     messageSentToggle();
-    await axios.post(
-      "https://portfolio-mailer-dt9i.vercel.app/send-email",
-      data
-    );
+    await fetch("https://portfolio-mailer-dt9i.vercel.app/send-email", {
+      method: "POST",
+      body: data,
+    });
     reset();
     messageSentToggle();
   };
