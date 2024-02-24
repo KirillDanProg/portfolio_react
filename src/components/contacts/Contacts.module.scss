@@ -1,28 +1,26 @@
 @import "../../common/style/vars";
 
 .contacts {
+    display: flex;
+    color: rgb(205 77 77);
     align-items: center;
     background-color: rgb(0 0 0 / 40%);
     scroll-margin-top: -40px;
-
-    display: flex;
     flex-direction: column;
     justify-content: center;
     min-height: 100vh;
 
     .form {
-        width: 50%;
+        width: 30%;
 
         display: flex;
         flex-direction: column;
     
         .email, .name, .subject {
-            height: 50px;
-
             font-size: 18px;
-            padding: 15px;
+            padding: 8px 15px;
             border: 2px solid $main;
-            border-radius: 20px;
+            border-radius: 10px;
             margin-bottom: 10px;
         }
     
@@ -30,7 +28,7 @@
     
         button {
             background-color: $main;
-            border-radius: 20px;
+            border-radius: 10px;
             margin-top: 20px;
         }
     
@@ -42,7 +40,7 @@
 
     textarea {
         border: 2px solid $main;
-        border-radius: 20px;
+        border-radius: 10px;
         min-height: 200px;
 
         padding: 10px;
