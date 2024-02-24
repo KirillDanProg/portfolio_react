@@ -11,7 +11,7 @@ const Contacts = () => {
     setIsSent(true);
     setTimeout(() => {
       setIsSent(false);
-    }, 4000);
+    }, 3000);
   };
   const {
     reset,
@@ -23,7 +23,10 @@ const Contacts = () => {
     messageSentToggle();
     await fetch("https://portfolio-mailer-dt9i.vercel.app/send-email", {
       method: "POST",
-      body: data,
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(data),
     });
     reset();
     messageSentToggle();
