@@ -55,10 +55,32 @@
         }
     }
    
-    
-
     .spanCv {
         text-transform: uppercase;
     }
 
+}
+
+@media ( width <= 640px) {
+    .main {
+        .img {
+            left: 25px;
+        }
+
+        .content {
+            gap: 0;
+            margin-right: 0;
+          justify-content: start;
+
+            .title {
+            font-size: 1.6rem;
+              margin-bottom: 270px;
+            }
+
+            .subTitle {
+                font-size: 1.2rem;
+            margin-top: 40px;    
+            }
+        }
+    }
 }
