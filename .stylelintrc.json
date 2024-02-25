@@ -1,5 +1,9 @@
 {
-  "extends": ["stylelint-config-standard-scss", "stylelint-config-clean-order"],
+  "extends": [
+    "stylelint-config-standard-scss",
+    "stylelint-config-clean-order",
+    "stylelint-config-recommended"
+  ],
   "rules": {
     "selector-class-pattern": "^.*$",
     "keyframes-name-pattern": null,
@@ -7,7 +11,7 @@
       {
         "groupName": "dimensions",
         "emptyLineBefore": "always",
-        "properties": ["height", "width"]
+        "properties": ["width", "height"]
       },
       {
         "groupName": "font",
