@@ -17,7 +17,7 @@ const Skill = ({ id, icon, name, description, ...restProps }) => {
         opacity: isInView ? 1 : 0,
       }}
       transition={{
-        duration: 1.5,
+        duration: 1,
         ease: "circInOut",
         delay: 0.2,
       }}
