@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio_react/static/css/main.397f89c8.css",
-    "main.js": "/portfolio_react/static/js/main.0a8827ad.js",
+    "main.css": "/portfolio_react/static/css/main.0be923f8.css",
+    "main.js": "/portfolio_react/static/js/main.8d46fdff.js",
     "static/media/Kirill-frontend-CV.pdf": "/portfolio_react/static/media/Kirill-frontend-CV.156b43b58f7258792efa.pdf",
     "static/media/money-tracker.png": "/portfolio_react/static/media/money-tracker.2e84b5fae9075a741fd4.png",
     "static/media/me-photo.png": "/portfolio_react/static/media/me-photo.9a71bfb6cb18efdd15f4.png",
@@ -17,11 +17,11 @@
     "static/media/icons8-javascript.svg": "/portfolio_react/static/media/icons8-javascript.8e1c28f337b1c953c73378e927bd873d.svg",
     "static/media/icons8-typescript.svg": "/portfolio_react/static/media/icons8-typescript.58fdeec059797b8730abc9160768b38e.svg",
     "static/media/icons8-html-5.svg": "/portfolio_react/static/media/icons8-html-5.b92ca3bd122ef4c64385c4f07b471066.svg",
-    "main.397f89c8.css.map": "/portfolio_react/static/css/main.397f89c8.css.map",
-    "main.0a8827ad.js.map": "/portfolio_react/static/js/main.0a8827ad.js.map"
+    "main.0be923f8.css.map": "/portfolio_react/static/css/main.0be923f8.css.map",
+    "main.8d46fdff.js.map": "/portfolio_react/static/js/main.8d46fdff.js.map"
   },
   "entrypoints": [
-    "static/css/main.397f89c8.css",
-    "static/js/main.0a8827ad.js"
+    "static/css/main.0be923f8.css",
+    "static/js/main.8d46fdff.js"
   ]
 }
